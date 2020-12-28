@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: GUANHUA'S LOG BOOK
+title: Guanhua
+masthead_title: Guanhua's Stories
 email: guanhuashu@gmail.com
 description: Guanhua's personal blog about computational biology, data science, machine learning and photography. 
 
@@ -23,7 +24,7 @@ description: Guanhua's personal blog about computational biology, data science, 
 #  Google search results) and in your feed.xml site description.
 #twitter_username: username
 github_username: guanhuashu
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default"
 search: true
 
 # Build settings
@@ -62,7 +63,8 @@ plugins:
 author:
   name   : "Guanhua Shu"
   avatar : "/assets/images/bio_photo.jpg"
-  bio    : "Data Science, Machine Learning, Computational Biology"
+  bio    : "<em>Data Science,</em><br> <em>Machine Learning,</em><br> <em>Computational Biology.</em><br>"
+  location: "Boston, MA, USA"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -77,17 +79,17 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/guanhuashu/"
 
-#footer:
-#  links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-    #  url: "https://twitter.com/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/guanhuashu"
-#    - label: "LinkedIn"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
+footer:
+ links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://guanhuashu.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/guanhuashu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/guanhuashu/"
 
 defaults:
   # _posts
@@ -95,6 +97,7 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true

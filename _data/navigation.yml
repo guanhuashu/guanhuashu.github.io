@@ -1,9 +1,21 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "CURRICULUM"
+    url: /cv/
+  - title: "PROJECTS"
+    url: /projects/
+  - title: "PUBLICATIONS"
+    url: /publications/
+  - title: "FAQs"
+    url: /faq/
+
+
+# Thi is the defaults
+# main:
+#   - title: "Posts"
+#     url: /posts/
+#   - title: "Categories"
+#     url: /categories/
+#   - title: "Tags"
+#     url: /tags/
+#   - title: "About"
+#     url: /about/
